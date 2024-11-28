@@ -1,0 +1,14 @@
+npm i next-app
+npm i nnext-auth@beta
+npm i exec  auth secret
+
+
+
+create api folder 
+
+ccreate lib/ auth.js providers 
+
+create login components 
+
+create sessionwreper componenets 
+
