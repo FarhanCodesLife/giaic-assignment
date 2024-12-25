@@ -17,13 +17,19 @@ export default {
             name: 'blogimage',
             type: 'image',
             title: 'Blog Image',
+            options: {
+                hotspot: true,
+              },
         },
+        
         {
             name: 'author',
             type: 'reference',
             title: 'Author',
+            required: true,
             to: [{ type: 'author' }],
           },
+          
 
     ]
 }
