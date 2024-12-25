@@ -1,14 +1,12 @@
 export default {
-    name: 'Blogs',
+    name: 'pet',
     type: 'document',
-    title: 'Blogs',
+    title: 'Pet',
     fields: [
         {
-            title: 'title',
+            name: 'name',
             type: 'string',
-            title: 'Enter Blog Title'
-        },{
-            
+            title: 'Name'
         }
-
     ]
+}
